@@ -10,7 +10,7 @@ const SHIFT_BG = "#1f2937";
 // photographic background
 const bgImage = new Image();
 let bgReady = false;
-bgImage.src = "images/bg1.jpg";
+bgImage.src = "bg1.jpg";
 bgImage.onload = () => { bgReady = true; };
 
 let keys = {};
